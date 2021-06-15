@@ -1,0 +1,24 @@
+.sidebar__chatroom {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.sidebar__chatroom:hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.sidebar__chatroom--info {
+  margin-left: 1em;
+  padding: 10px;
+  border-bottom: 2px solid #ededed;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar__chatroom--info > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0.2em;
+  font-size: 1.2em;
+}
